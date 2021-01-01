@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color:#aaa;
+	font-family:  "Arial"
+}
+body {
+  width: 100%;
+  height: auto;
+  font: 100%/1.5 em Arial;
+  color: #111;
+}
+
+h2{
+  padding: 2% 1% 1% 1%;
+}
+
+.autor{
+	background-color:#dcd;
+	padding: 1% 1% 1% 1%;
+}
+.time{
+	background-color:#444;
+	padding: 1% 1% 1% 1%;
+}
