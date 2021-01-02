@@ -185,9 +185,11 @@ h1,h2,h3,span {
   font-family: 'OpenSans_Regular';
   font-weight: lighter;
 }
+
 h1,h2{
 	color: #787878;
 }
+
 h2{
 	color: #333333;
 }
@@ -322,7 +324,10 @@ a{
 }
 
 table{
+	width:940px;
+	height:98px;
 	border-collapse:collapse;
+	border: 1px solid #d43;
 }
 
 td, tr {
@@ -337,7 +342,7 @@ td, tr {
 }
 
 .margin{
-	width:234px;
+	width:456px;
 	height:54px;
     margin: 12px;
 }
