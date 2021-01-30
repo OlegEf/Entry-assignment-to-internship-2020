@@ -1,6 +1,6 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
-// import './index.css';
+import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
@@ -18,6 +18,8 @@ import React from 'react';
 
 
 // ua30
+
+import './App.css';
    import {render} from 'react-dom'
 
 function HelloWorld() {
@@ -71,6 +73,18 @@ function HelloWorld() {
 						<span>ссылка на оригинал дизайна</span>
 						<p class="demo"><a href="https://p.w3layouts.com/demos/metushi/web/">https://p.w3layouts.com/demos/metushi/web/</a></p>
             </div>
+
+            <div id="thums">
+                <div class="thums_img"><img src="images/8.png" alt="a"/></div>
+                <div class="thums_img"><img src="images/7.png" alt="a"/></div>
+                <div class="thums_img"><img src="images/6.png" alt="a"/></div>
+                <div class="thums_img"><img src="images/5.png" alt="a"/></div>
+                <div class="thums_img"><img src="images/4.png" alt="a"/></div>
+                <div class="thums_img"><img src="images/3.png" alt="a"/></div>
+                <div class="thums_img"><img src="images/2.png" alt="a"/></div>
+                <div className="thums_img"><img src="../images/1.png" alt="a"/></div>
+            </div>
+
 			<table>
 				<tbody>
 					<tr>
