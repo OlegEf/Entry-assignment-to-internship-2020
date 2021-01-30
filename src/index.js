@@ -82,7 +82,7 @@ function HelloWorld() {
                 <div class="thums_img"><img src="images/4.png" alt="a"/></div>
                 <div class="thums_img"><img src="images/3.png" alt="a"/></div>
                 <div class="thums_img"><img src="images/2.png" alt="a"/></div>
-                <div className="thums_img"><img src="../images/1.png" alt="a"/></div>
+                <div class="thums_img"><img src="images/1.png" alt="a"/></div>
             </div>
 
 			<table>

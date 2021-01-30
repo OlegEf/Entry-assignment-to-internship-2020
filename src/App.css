@@ -4,7 +4,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  /* font-family: 'OpenSans_Bold'; */
+  font-family: 'OpenSans_Bold';
   font-size: 15px;
 }
 
@@ -22,27 +22,12 @@ img{
   height: auto;
 }
 
-/* @font-face { */
-  /* font-family: 'Arial_Rounded_MT_Bold'; */
-  /* src: url('fonts/Arial_Rounded_MT_Bold.ttf'); */
-  /* src: url('fonts/Arial_Rounded_MT_Bold.otf'); */
-  /* src: url('fonts/Arial_Rounded_MT_Bold.eot'); */
-  /* src: url('fonts/Arial_Rounded_MT_Bold.woff'); */
-/* } */
-
-/* dd exper */
-
-/* @font-face { */
-  /* font-family: 'Arial_Rounded_MT_Bold'; */
-  /* src: url('fonts/Arial_Rounded_MT_Bold.ttf'); */
-  /* src: url('fonts/Arial_Rounded_MT_Bold.otf'); */
-  /* src: url('fonts/Arial_Rounded_MT_Bold.eot'); */
-  /* src: url('fonts/Arial_Rounded_MT_Bold.woff'); */
-/* } */
-
-/* dd exper */
-
-
+@font-face {
+  font-family: 'Arial_Rounded_MT_Bold';
+  src: url('fonts/Arial_Rounded_MT_Bold.ttf');
+  src: url('fonts/Arial_Rounded_MT_Bold.eot');
+  src: url('fonts/Arial_Rounded_MT_Bold.woff');
+}
 
 @font-face {
   font-family: 'OpenSans_Regular';
@@ -81,7 +66,6 @@ img{
 #header { 
   min-height: 269px;
   width: 940px;
-
 }
 
 #logo { 
@@ -241,7 +225,7 @@ a{
 }
 
 .home { 
-  /* background-image: url(images/home.png); */
+  background-image: url(images/home.png);
   background-size: 42%;
   background-position: 20px 21px;
   background-repeat: no-repeat;  
@@ -252,7 +236,7 @@ a{
 }
 
 .home:hover{ 
-  /* background-image: url(images/homeRed.png); */
+  background-image: url(images/homeRed.png);
   background-size: 42%;
   background-position: 20px 21px;
   background-repeat: no-repeat;  
