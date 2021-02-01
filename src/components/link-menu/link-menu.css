@@ -1,0 +1,11 @@
+.before::before{
+	content:"content before ";
+	background-color:#c22;
+    padding: 12px;
+}
+
+.margin{
+	width:456px;
+	height:54px;
+    margin: 12px;
+}
