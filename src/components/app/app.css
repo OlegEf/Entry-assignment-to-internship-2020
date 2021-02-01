@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'OpenSans_Bold';
+  font-size: 15px;
+}
+
+body {
+  width: 1600px;
+  height: auto;
+  padding: 0px 0px 0px 328px;
+  text-align: center; 
+}
+
+img{
+  display: block;
+  line-height: 0;
+  max-width:100%;  
+  height: auto;
+}
+
+@font-face {
+  font-family: 'Arial_Rounded_MT_Bold';
+  src: url('/src/fonts/Arial_Rounded_MT_Bold.ttf');
+  src: url('/src/fonts/Arial_Rounded_MT_Bold.eot');
+  src: url('/src/fonts/Arial_Rounded_MT_Bold.woff');
+}
+
+@font-face {
+  font-family: 'OpenSans_Regular';
+  src: url('/src/fonts/OpenSans_Regular.ttf');
+}
+@font-face {
+  font-family: 'OpenSans_Bold';
+  src: url('/src/fonts/OpenSans_Bold.ttf');
+}
+@font-face {
+  font-family: 'OpenSans_BoldItalic';
+  src: url('/src/fonts/OpenSans_BoldItalic.ttf');
+}
+@font-face {
+  font-family: 'OpenSans_Italic';
+  src: url('/src/fonts/OpenSans_Italic.ttf');
+}
+@font-face {
+  font-family: 'OpenSans_Light';
+  src: url('/src/fonts/OpenSans_Light.ttf');
+}
+@font-face {
+  font-family: 'socialico-webfont';
+  src: url('/src/fonts/socialico-webfont.ttf');
+  src: url('/src/fonts/socialico-webfont.eot');
+  src: url('/src/fonts/socialico-webfont.svg');
+  src: url('/src/fonts/socialico-webfont.woff');
+  src: url('/src/fonts/socialico-webfont.woff2');
+}
+
+.container{
+  width: 940px;
+  height: auto;
+}
