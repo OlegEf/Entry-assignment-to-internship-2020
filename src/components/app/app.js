@@ -3,6 +3,7 @@ import React from 'react';
 import AppHeader from '../app-header';
 import Menu from '../menu';
 import LinkFooter from '../link-footer';
+import BlockImages from '../block-images';
 
 import './app.css';
 
@@ -16,6 +17,7 @@ const App = () => {
 		</div>
 		<div class="content">
 		  <LinkFooter />
+		  <BlockImages />
 		</div>
 	</body>
   );
