@@ -1,7 +1,7 @@
 import React from 'react';
 import './app-header.css';
 
-const AppHeader = ({toDo, done}) => {
+const AppHeader = () => {
   return (
     <div id="header">
             <div id="top-header">
@@ -20,7 +20,7 @@ const AppHeader = ({toDo, done}) => {
                 </div>
             </div>
             <div id="many">
-                    <div class="manya">
+                    <div className="manya">
 						<h1>Персональный сайт EOV</h1>
 						<h2>
                             автор: Олег Ефимчук
@@ -29,7 +29,7 @@ const AppHeader = ({toDo, done}) => {
                     <div class="manyb">
 						<h3>проект EOV на гитхаб</h3>
                     </div>
-					<p class="autor"><a href="https://github.com/OlegEf/Entry-assignment-to-internship-2020" target="blank">https://github.com/OlegEf/</a></p>
+					<p className="autor"><a href="https://github.com/OlegEf/Entry-assignment-to-internship-2020" target="blank">https://github.com/OlegEf/</a></p>
             </div>
 		</div>
   );

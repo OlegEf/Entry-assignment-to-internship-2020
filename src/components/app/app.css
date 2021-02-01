@@ -11,7 +11,6 @@
 body {
   width: 1600px;
   height: auto;
-  padding: 0px 0px 0px 328px;
   text-align: center; 
 }
 
@@ -61,4 +60,26 @@ img{
 .container{
   width: 940px;
   height: auto;
+  margin: 0px 0px 0px 164px;
+}
+
+h1,h2,h3,span {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.2px;
+  word-spacing: -2.5px;
+  font-family: 'OpenSans_Regular';
+  font-weight: lighter;
+}
+
+h1,h2{
+	color: #787878;
+}
+
+h2{
+	color: #333333;
+}
+
+a{
+	color: #ff5c00;
 }
