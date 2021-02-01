@@ -82,3 +82,12 @@
   display: inline-block;
   float: left;
 }
+
+.about-2,
+.portfolio,
+.blog-2,
+.features,
+.contact{
+  color: #666666;
+  letter-spacing: 0.5px;
+}
