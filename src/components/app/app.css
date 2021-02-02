@@ -48,6 +48,7 @@ img{
   font-family: 'OpenSans_Light';
   src: url('/src/fonts/OpenSans_Light.ttf');
 }
+
 @font-face {
   font-family: 'socialico-webfont';
   src: url('/src/fonts/socialico-webfont.ttf');
@@ -60,6 +61,7 @@ img{
 .container{
   width: 940px;
   height: auto;
+  padding: 0;
   margin: 0px 0px 0px 164px;
 }
 
@@ -82,11 +84,4 @@ h2{
 
 a{
 	color: #ff5c00;
-}
-
-.content{
-  width: 982px;
-  height: auto;
-  padding: 0px 0px 0px 1px;
-  margin: 0px 0px 0px 164px;
 }

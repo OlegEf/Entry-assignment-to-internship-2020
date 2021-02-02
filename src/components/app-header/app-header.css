@@ -1,12 +1,20 @@
 #header { 
-  min-height: 269px;
   width: 940px;
+  min-height: 269px;
 }
 
+#top-header { 
+	width: 940px;
+	height: 78px;
+	vertical-align: middle;
+	background-color:#201919;
+}    
+
 #logo { 
+  width: 136.4px;
+  height: 78px;
   color: #fff;
-  margin: 0px 0px 0px 0px;
-  padding: 16px 0px 18px 1px;
+  padding: 18px 0px 18px 0px;
   letter-spacing: 0.2px;
   width: 171px;
   min-height: 20px;
@@ -31,52 +39,40 @@
   position: relative;
 }
 
-#social-icons li {
+#social-icons ul{
+	list-style-type: none;
+}
+
+
+li a, li li a:hover{
   width: 33.8px;
   min-height: 36px;
-  opacity: 0.7; 
-  color: #CCCCCC;
+
   float: left;
   font-family: 'socialico-webfont';            
   font-size: 39px;
-  margin: 0px 0px 0px 0px;
   text-align: right;
   letter-spacing: 2.9px;
   z-index: 99;
   position: relative;
   list-style-type: none;
+  text-decoration:none;
 }
 
-#social-icons li:hover{ 
-  width: 33.8px;
-  min-height: 36px;
-  float: left;
-  font-family: 'socialico-webfont';
-  color: #99CCCC;            
-  font-size: 39px;
-  text-align: right;
-  letter-spacing: 2.9px;
-  z-index: 99;
-  position: relative;
+li a{
+  color: #CCCCCC;
 }
 
-#social-icons li:nth-of-type(2) {
+li a:hover{
+  color: #8ec2da; 
+}
+
+#social-icons ul li a:nth-of-type(2) {
     color: #5579fd;  
 }
 
-#top-header { 
-	padding: 0px 0px 0px 2px;
-	width: 940px;
-	height: 78px;
-	vertical-align: middle;
-	background-color:#201919;
-}    
-
-#many { 
+#block-personal,#personal-site{ 
     font-size: 16px;
-    padding: 42px 0px 0px 0px; 
-    margin: 0px 0px 0px 0px;
-    width: 940px;
     height: 124px;
     text-indent: 0;
     text-transform: none;
@@ -84,20 +80,18 @@
     text-align: left;
 }
 
-.manya { 
+#block-personal { 
+    padding: 42px 0px 0px 0px; 
+    width: 940px;
+}
+
+.personal-site { 
 	display:block;
 	float:left;
-    font-size: 16px;
-    margin: 0px 0px 0px 0px;
     width: 456px;
-    height: 124px;
-    text-indent: 0;
-    text-transform: none;
-    text-decoration: none;
-    text-align: left;
 }
 
-.manyb { 
+.project on github { 
   display:block;
   float:left;
   font-size: 16px;

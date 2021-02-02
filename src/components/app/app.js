@@ -13,20 +13,20 @@ import './app.css';
 const App = () => {
 
   return (
-	<body>
 		<div class="container">
 		  <AppHeader />
 		  <Menu />
-		</div>
-		<div class="content">
 		  <LinkFooter />
 		  <BlockImages />
 		  <Table />
 		  <LinkMenu />
 		  <Footer />
 		</div>
-	</body>
   );
 };
 
 export default App;
+
+		// <div class="content">
+	// <body>
+	// </body>
