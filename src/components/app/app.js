@@ -26,7 +26,3 @@ const App = () => {
 };
 
 export default App;
-
-		// <div class="content">
-	// <body>
-	// </body>

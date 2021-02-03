@@ -1,7 +1,6 @@
 import React from 'react';
 import './app-header.css';
 import SocialIcons from '../social-icons';
-// import Menu2 from '../menu2';
 
 const AppHeader = () => {
 
