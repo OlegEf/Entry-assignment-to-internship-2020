@@ -1,10 +1,10 @@
 import React from 'react';
 import './app-header.css';
+import SocialIcons from '../social-icons';
+// import Menu2 from '../menu2';
 
 const AppHeader = () => {
 
-
-	
   return (
     <div id="header">
             <div id="top-header">
@@ -15,10 +15,7 @@ const AppHeader = () => {
                 </div>                
                 <div id="social-icons">
 					<ul>
-						<li><a href="https://m.facebook.com/home.php">l</a></li>
-						<li><a href="https://m.facebook.com/home.php">f</a></li>
-						<li><a href="https://m.facebook.com/home.php">d</a></li>
-						<li><a href="https://m.facebook.com/home.php">r</a></li>				
+						<SocialIcons/>				
 					</ul>
                 </div>
             </div>
