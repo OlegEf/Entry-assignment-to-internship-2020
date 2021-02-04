@@ -2,17 +2,22 @@ import React from 'react';
 
 import './block-images.css';
 
-const BlockImages = () => {
+const BlockImages = ({todos}) => {
+
+	const elementsImages= todos.map((item) => {
+		return (
+			<div class="thums_img2">
+				<img src={item.src}
+					alt={item.alt}
+				/>
+			</div>
+		);
+	});
+
   return (
-		<div id="thums">
-			<div class="thums_img"><img src="images/8.png" alt="a"/></div>
-			<div class="thums_img"><img src="images/7.png" alt="a"/></div>
-			<div class="thums_img"><img src="images/6.png" alt="a"/></div>
-			<div class="thums_img"><img src="images/5.png" alt="a"/></div>
-			<div class="thums_img"><img src="images/4.png" alt="a"/></div>
-			<div class="thums_img"><img src="images/3.png" alt="a"/></div>
-			<div class="thums_img"><img src="images/2.png" alt="a"/></div>
-			<div class="thums_img"><img src="images/1.png" alt="a"/></div>
+		<div id="thums2">
+			{elementsImages}
+
 		</div>
   );
 };

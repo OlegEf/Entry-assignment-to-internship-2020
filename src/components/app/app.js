@@ -12,12 +12,23 @@ import './app.css';
 
 const App = () => {
 
+const todoData = [
+	{src:"images/8.png", alt:"a"},
+	{src:"images/7.png", alt:"a"},
+	{src:"images/6.png", alt:"a"},
+	{src:"images/5.png", alt:"a"},
+	{src:"images/4.png", alt:"a"},
+	{src:"images/3.png", alt:"a"},
+	{src:"images/2.png", alt:"a"},
+	{src:"images/1.png", alt:"a"},
+] ;
+
   return (
 		<div class="container">
 		  <AppHeader />
 		  <Menu />
 		  <LinkFooter />
-		  <BlockImages />
+		  <BlockImages todos={todoData} />
 		  <Table />
 		  <LinkMenu />
 		  <Footer />
