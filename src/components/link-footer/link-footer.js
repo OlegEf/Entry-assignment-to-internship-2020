@@ -4,11 +4,11 @@ import './link-footer.css';
 
 const LinkFooter = () => {
   return (
-			<div class="row">
+			<div className="row">
 				<a href="#footer">быстрый переход footer</a>
-					<h3 class="demo">Данный проект демонстрирует  базовые возможности html css</h3>
+					<h3 className="demo">Данный проект демонстрирует  базовые возможности html css</h3>
 					<span>ссылка на оригинал дизайна</span>
-					<p class="demo"><a href="https://p.w3layouts.com/demos/metushi/web/">https://p.w3layouts.com/demos/metushi/web/</a></p>
+					<p className="demo"><a href="https://p.w3layouts.com/demos/metushi/web/">https://p.w3layouts.com/demos/metushi/web/</a></p>
             </div>
   );
 };

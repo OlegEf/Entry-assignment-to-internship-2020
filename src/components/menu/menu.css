@@ -17,15 +17,22 @@
   color: #666666;    
   letter-spacing: 0.3px;
   text-align: left;
-  font-family: 'OpenSans_Regular';
   font-size: 15.6px;
 }
 
-#menu>*:hover{ 
+ #menu>div a{ 
+  font-family: 'OpenSans_Regular';
+  text-decoration: none;
+  color: #666666;
+  letter-spacing: 0.5px;
+}
+
+ #menu>div a:hover{ 
+  font-family: 'OpenSans_Regular';
   color: #FF6666;
 }
 
-.home { 
+.home{ 
   background-image: url(/src/images/home.png);
   background-size: 42%;
   background-position: 20px 21px;
@@ -36,7 +43,22 @@
   float: left;
 }
 
-.home:hover{ 
+.home>*{ 
+	opacity:0;
+}
+
+.home a{ 
+  background-image: url(/src/images/home.png);
+  background-size: 42%;
+  background-position: 20px 21px;
+  background-repeat: no-repeat;  
+  padding: 0px 0px 0px 16px;
+  width: 69px;
+  display: inline-block;
+  float: left;
+}
+
+.home:hover { 
   background-image: url(/src/images/homeRed.png);
   background-size: 42%;
   background-position: 20px 21px;
@@ -47,11 +69,15 @@
   float: left;
 }
 
-.about-2 { 
+.about-2{ 
   padding: 21px 0px 0px 19.5px;    
   width: 110px;
   display: inline-block;
   float: left;
+}
+
+.about-2 a{ 
+  width: 110px;
 }
 
 .portfolio { 
@@ -61,6 +87,10 @@
   float: left;
 }
 
+.portfolio a{ 
+  width: 106px;
+}
+
 .blog-2 { 
   padding: 21px 0px 0px 18.3px;
   width: 73px;
@@ -68,11 +98,19 @@
   float: left;
 }
 
+.blog-2 a{ 
+  width: 73px;
+}
+
 .features { 
   padding: 20px 0px 0px 19px;    
   width: 105px;
   display: inline-block;
   float: left;
+}
+
+.features a{ 
+  width: 105px;
 }
 
 .contact { 
@@ -83,11 +121,6 @@
   float: left;
 }
 
-.about-2,
-.portfolio,
-.blog-2,
-.features,
-.contact{
-  color: #666666;
-  letter-spacing: 0.5px;
+.contact a{ 
+  width: 100px;
 }

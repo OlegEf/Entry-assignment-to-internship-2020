@@ -6,7 +6,7 @@ const BlockImages = ({todos}) => {
 
 	const elementsImages= todos.map((item) => {
 		return (
-			<div class="thums_img2">
+			<div className="thums_img2" key={item.id}>
 				<img src={item.src}
 					alt={item.alt}
 				/>

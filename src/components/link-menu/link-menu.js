@@ -4,12 +4,12 @@ import './link-menu.css';
 
 const LinkMenu = () => {
   return (
-	<div class="row">
-		<div class="margin">
-			<p class="before">псевдоэлемент</p>
+	<div className="row">
+		<div className="margin">
+			<p className="before">псевдоэлемент</p>
 		</div>
-		<div class="margin">
-			<a href="#logo" class="margin">быстрый переход logo</a>
+		<div className="margin">
+			<a href="#logo" className="margin">быстрый переход logo</a>
 		</div>
 	</div>
   );
