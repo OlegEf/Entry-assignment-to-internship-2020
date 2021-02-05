@@ -43,6 +43,7 @@
   float: left;
 }
 
+/* opacity hides content home */
 .home>*{ 
 	opacity:0;
 }
