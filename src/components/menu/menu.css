@@ -1,0 +1,127 @@
+.header_c{
+  display: block;
+  width: 940px;
+  height: 62px;
+  padding: 0px 0px 0px 2px;
+}
+
+#menu { 
+  width: 563px;
+  min-height: 63px;
+  float: left;
+}
+
+#menu>* { 
+  border-left: 1px solid #666666; 
+  min-height: 63px;
+  color: #666666;    
+  letter-spacing: 0.3px;
+  text-align: left;
+  font-size: 15.6px;
+}
+
+ #menu>div a{ 
+  font-family: 'OpenSans_Regular';
+  text-decoration: none;
+  color: #666666;
+  letter-spacing: 0.5px;
+}
+
+ #menu>div a:hover{ 
+  font-family: 'OpenSans_Regular';
+  color: #FF6666;
+}
+
+.home{ 
+  background-image: url(/src/images/home.png);
+  background-size: 42%;
+  background-position: 20px 21px;
+  background-repeat: no-repeat;  
+  padding: 0px 0px 0px 16px;
+  width: 69px;
+  display: inline-block;
+  float: left;
+}
+
+/* opacity hides content home */
+.home>*{ 
+	opacity:0;
+}
+
+.home a{ 
+  background-image: url(/src/images/home.png);
+  background-size: 42%;
+  background-position: 20px 21px;
+  background-repeat: no-repeat;  
+  padding: 0px 0px 0px 16px;
+  width: 69px;
+  display: inline-block;
+  float: left;
+}
+
+.home:hover { 
+  background-image: url(/src/images/homeRed.png);
+  background-size: 42%;
+  background-position: 20px 21px;
+  background-repeat: no-repeat;  
+  padding: 0px 0px 0px 16px;
+  width: 69px;
+  display: inline-block;
+  float: left;
+}
+
+.about-2{ 
+  padding: 21px 0px 0px 19.5px;    
+  width: 110px;
+  display: inline-block;
+  float: left;
+}
+
+.about-2 a{ 
+  width: 110px;
+}
+
+.portfolio { 
+  padding: 21px 0px 0px 20px;    
+  width: 106px;
+  display: inline-block;
+  float: left;
+}
+
+.portfolio a{ 
+  width: 106px;
+}
+
+.blog-2 { 
+  padding: 21px 0px 0px 18.3px;
+  width: 73px;
+  display: inline-block;
+  float: left;
+}
+
+.blog-2 a{ 
+  width: 73px;
+}
+
+.features { 
+  padding: 20px 0px 0px 19px;    
+  width: 105px;
+  display: inline-block;
+  float: left;
+}
+
+.features a{ 
+  width: 105px;
+}
+
+.contact { 
+  padding: 20px 0px 0px 19px;
+  border-right: 1px solid #666666;    
+  width: 100px;
+  display: inline-block;
+  float: left;
+}
+
+.contact a{ 
+  width: 100px;
+}
