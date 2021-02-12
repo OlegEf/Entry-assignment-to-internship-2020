@@ -36,6 +36,9 @@ li a{
 
 li a:hover{
   color: #8ec2da; 
+
+  list-style-type: none;
+  text-decoration:none;
 }
 
 #social-icons ul li a:nth-of-type(2) {

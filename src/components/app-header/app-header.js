@@ -1,37 +1,49 @@
-import React from 'react';
-import './app-header.css';
-import SocialIcons from '../social-icons';
+import React from "react";
+import "./app-header.css";
+import SocialIcons from "../social-icons";
+import PropTypes from "prop-types";
+
+const personal = "Персональный сайт EOV" ;
+const author = "автор: Олег Ефимчук" ;
+const project_GitHub = "проект EOV на гитхаб" ;
+
+const linkGitHub_EATI =
+	"https://github.com/OlegEf/Entry-assignment-to-internship-2020";
 
 const AppHeader = () => {
-
-  return (
-    <div id="header">
-            <div id="top-header">
-                <div id="logo">
-                    <h1>
-                        EOV
-                    </h1>
-                </div>                
-                <div id="social-icons">
-					<ul>
-						<SocialIcons/>				
-					</ul>
-                </div>
-            </div>
-            <div id="block-personal">
-                    <div className="personal-site">
-						<h1>Персональный сайт EOV</h1>
-						<h2>
-                            автор: Олег Ефимчук
-                        </h2>
-                    </div>
-                    <div className="project-on-github">
-						<h3>проект EOV на гитхаб</h3>
-                    </div>
-					<p className="autor"><a href="https://github.com/OlegEf/Entry-assignment-to-internship-2020" target="blank">https://github.com/OlegEf/</a></p>
-            </div>
+	return (
+		<div id="header">
+			<div id="top-header">
+				<div id="logo">
+					<h1>EOV</h1>
+				</div>
+				<div id="social-icons">
+					<SocialIcons />
+				</div>
+			</div>
+			<div id="block-personal">
+				<div className="personal-site">
+					<h1>{personal}</h1>
+					<h2>{author}</h2>
+				</div>
+				<div className="project-on-github">
+					<h3>{project_GitHub}</h3>
+				</div>
+				<p className="autor">
+					<a href={linkGitHub_EATI} target="blank">
+						{linkGitHub_EATI}
+					</a>
+				</p>
+			</div>
 		</div>
-  );
+	);
+};
+
+AppHeader.propTypes = {
+	personal: PropTypes.string,
+	author: PropTypes.string,
+	project_GitHub: PropTypes.string,
+	linkGitHub_EATI: PropTypes.string,
 };
 
 export default AppHeader;
