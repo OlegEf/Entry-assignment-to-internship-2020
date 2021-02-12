@@ -9,8 +9,6 @@
 }
 
 body {
-  width: 1600px;
-  height: auto;
   text-align: center; 
 }
 
@@ -56,13 +54,6 @@ img{
   src: url('/src/fonts/socialico-webfont.svg');
   src: url('/src/fonts/socialico-webfont.woff');
   src: url('/src/fonts/socialico-webfont.woff2');
-}
-
-.container{
-  width: 940px;
-  height: auto;
-  padding: 0;
-  margin: 0px 0px 0px 164px;
 }
 
 h1,h2,h3,span {

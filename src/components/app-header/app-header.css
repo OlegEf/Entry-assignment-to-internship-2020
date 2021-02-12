@@ -1,18 +1,18 @@
 #header { 
-  width: 940px;
-  min-height: 269px;
+  /* width: 940px; */
+  /* min-height: 269px; */
 }
 
 #top-header { 
-	width: 940px;
-	height: 78px;
+	/* width: 940px; */
+	/* height: 78px; */
 	vertical-align: middle;
 	background-color:#201919;
 }    
 
 #logo { 
-  width: 136.4px;
-  height: 78px;
+  /* width: 136.4px; */
+  /* height: 78px; */
   color: #fff;
   padding: 18px 0px 18px 0px;
   letter-spacing: 0.2px;

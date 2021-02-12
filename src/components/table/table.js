@@ -13,7 +13,7 @@ const data_table_col3 = "data_table_col3";
 const Table = () => {
   return (
 
-	<div>
+	<div >
 		<table>
 			<tbody>
 				<tr>

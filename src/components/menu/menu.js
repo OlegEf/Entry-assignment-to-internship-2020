@@ -9,7 +9,7 @@ const menu_contacts = "Контакти";
 
 const Menu = (link_facebook) => {
 	return (
-		<div className="header_c">
+		<div className="header_c col-12">
 			<div id="menu">
 				<div className="home">
 					<a href={link_facebook}>{menu_home}</a>
@@ -34,6 +34,5 @@ Menu.propTypes = {
 	menu_about_me: PropTypes.string,
 	menu_contacts: PropTypes.string,
 };
-
 
 export default Menu;

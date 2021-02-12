@@ -1,16 +1,18 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import "./link-footer.css";
+
+const LinkFooter = () => {
 
 const fast_move_footer = "быстрый переход footer";
 const project_description = "Данный проект демонстрирует базовые возможности html css";
 const link_original = "ссылка на оригинал дизайна";
 const link_demo = "https://p.w3layouts.com/demos/metushi/web/";
 
-const LinkFooter = () => {
 	return (
 		<div className="row">
-			<a href="#footer">{fast_move_footer}</a>
+			<div className="margin col-12">
+				<a href="#footer" className="margin">{fast_move_footer}</a>
+			</div>
 			<h3 className="demo">
 				{project_description}
 			</h3>

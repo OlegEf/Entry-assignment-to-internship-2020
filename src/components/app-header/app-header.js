@@ -12,7 +12,7 @@ const linkGitHub_EATI =
 
 const AppHeader = () => {
 	return (
-		<div id="header">
+		<div id="header" className="col-12">
 			<div id="top-header">
 				<div id="logo">
 					<h1>EOV</h1>

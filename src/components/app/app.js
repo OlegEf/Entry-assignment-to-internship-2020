@@ -9,12 +9,12 @@ import "./app.css";
 
 const App = () => {
 	return (
-		<div className="container">
+		<div className="col-12" >
 			<AppHeader />
 			<Menu />
 			<LinkFooter />
 			<Table />
-			<LinkMenu />
+			<LinkMenu fast_move={"быстрый переход logo"} />
 			<Footer />
 		</div>
 	);
