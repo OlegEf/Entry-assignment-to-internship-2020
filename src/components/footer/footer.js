@@ -6,7 +6,7 @@ const data_time = 2021;
 
 const Footer = () => {
   return (
-	<div id="footer col-12">
+	<div id="footer">
 		<p>{data_time}</p>
 	</div>
   );

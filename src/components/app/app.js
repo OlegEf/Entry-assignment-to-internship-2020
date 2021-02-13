@@ -8,11 +8,12 @@ import Footer from "../footer";
 import "./app.css";
 
 const App = () => {
+
 	return (
 		<div className="col-12" >
 			<AppHeader />
-			<Menu />
-			<LinkFooter />
+			<Menu  />
+			<LinkFooter fast_move_footer={"быстрый переход footer"} />
 			<Table />
 			<LinkMenu fast_move={"быстрый переход logo"} />
 			<Footer />
