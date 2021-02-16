@@ -2,30 +2,25 @@ import React from "react";
 import "./biography-table.css";
 import PropTypes from "prop-types";
 
-const BiographyTable = () => {
+const BiographyTable = ({ todos }) => {
 	return (
 		<div className="alignCenter">
 			<table>
 				<tbody>
 					<tr>
-						<td>2003</td>
-						<td>завершил обучение ОСШ</td>
+						<td>{todos[0].label}</td>
 					</tr>
 					<tr>
-						<td>2008</td>
-						<td>завершил обучение КДПУ им.Виннченка</td>
+						<td>{todos[1].label}</td>
 					</tr>
 					<tr>
-						<td>2014</td>
-						<td>обучался верстке сайтов (HTML CSS)</td>
+						<td>{todos[2].label}</td>
 					</tr>
 					<tr>
-						<td>2016-2021</td>
-						<td>обучался программированию (JS, NODEJS)</td>
+						<td>{todos[3].label}</td>
 					</tr>
 					<tr>
-						<td>2020-2021</td>
-						<td>обучался программированию (ReactJS)</td>
+						<td>{todos[4].label}</td>
 					</tr>
 				</tbody>
 			</table>
