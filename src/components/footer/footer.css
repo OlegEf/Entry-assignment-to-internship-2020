@@ -1,9 +1,7 @@
 #footer{
-  padding: 0px 0px 0px 1px;
-  width: 941px;
-  height: 54px;
+  max-width: 100%;
+  height:auto;
   background-color:#131313;
-  font-family: 'OpenSans_Light';
   font-size: 17px;
   margin: 0;
   padding: 23px;

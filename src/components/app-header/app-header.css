@@ -1,62 +1,64 @@
-#header { 
-  /* width: 940px; */
-  /* min-height: 269px; */
+#header {
+  width: 100%;
+  height: auto;
+  background-color: #201919;
 }
 
-#top-header { 
-	/* width: 940px; */
-	/* height: 78px; */
-	vertical-align: middle;
-	background-color:#201919;
-}    
+#top-header {
+  width: 100%;
+  height: auto;
+}
 
-#logo { 
-  /* width: 136.4px; */
-  /* height: 78px; */
-  color: #fff;
-  padding: 18px 0px 18px 0px;
+#logo {
+  padding: 1%;
   letter-spacing: 0.2px;
-  width: 171px;
-  min-height: 20px;
+  width: 30%;
+  height: auto;
   float: left;
-  background-color:#FF6666;
+  background-color: #444;
   text-indent: 0;
-  font-family: 'Arial_Rounded_MT_Bold';
   font-size: 19px;
   text-transform: none;
   text-decoration: none;
 }
 
-#block-personal,#personal-site{ 
-    font-size: 16px;
-    height: 124px;
-    text-indent: 0;
-    text-transform: none;
-    text-decoration: none;
-    text-align: left;
-}
-
-#block-personal { 
-    padding: 42px 0px 0px 0px; 
-    width: 940px;
-}
-
-.personal-site { 
-	display:block;
-	float:left;
-    width: 456px;
-}
-
-.project on github { 
-  display:block;
-  float:left;
-  font-size: 16px;
-  padding: 67px 0px 0px 156px; 
-  margin: 0px 0px 0px 0px;
-  width: 456px;
-  height: 124px;
+#block-personal,
+#personal-site {
+  font-size: 1rem;
   text-indent: 0;
   text-transform: none;
   text-decoration: none;
   text-align: left;
+}
+
+#block-personal {
+  width: 100%;
+  height: auto;
+  padding: 1.2rem;
+}
+
+.personal-site {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  height: auto;
+  margin: 0% 10%;
+}
+
+.project-on-github {
+  width: 100%;
+  height: auto;
+  padding: 1rem 1rem;
+  float: left;
+  font-size: 16px;
+  text-indent: 0;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+}
+
+.author {
+  width: 100%;
+  height: auto;
+  padding: 1rem 1rem;
 }

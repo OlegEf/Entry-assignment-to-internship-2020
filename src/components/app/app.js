@@ -2,7 +2,7 @@ import React from "react";
 import AppHeader from "../app-header";
 import Menu from "../menu";
 import LinkFooter from "../link-footer";
-import Table from "../table";
+import BiographyTable from "../biography-table";
 import LinkMenu from "../link-menu";
 import Footer from "../footer";
 import "./app.css";
@@ -10,11 +10,11 @@ import "./app.css";
 const App = () => {
 
 	return (
-		<div className="col-12" >
+		<div className="col-12">
 			<AppHeader />
-			<Menu  />
+			<Menu />
 			<LinkFooter fast_move_footer={"быстрый переход footer"} />
-			<Table />
+			<BiographyTable  />
 			<LinkMenu fast_move={"быстрый переход logo"} />
 			<Footer />
 		</div>

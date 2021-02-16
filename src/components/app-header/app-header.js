@@ -1,6 +1,5 @@
 import React from "react";
 import "./app-header.css";
-import SocialIcons from "../social-icons";
 import PropTypes from "prop-types";
 
 const personal = "Персональный сайт EOV" ;
@@ -18,7 +17,6 @@ const AppHeader = () => {
 					<h1>EOV</h1>
 				</div>
 				<div id="social-icons">
-					<SocialIcons />
 				</div>
 			</div>
 			<div id="block-personal">
@@ -29,7 +27,7 @@ const AppHeader = () => {
 				<div className="project-on-github">
 					<h3>{project_GitHub}</h3>
 				</div>
-				<p className="autor">
+				<p className="author">
 					<a href={linkGitHub_EATI} target="blank">
 						{linkGitHub_EATI}
 					</a>
@@ -46,4 +44,5 @@ AppHeader.propTypes = {
 	linkGitHub_EATI: PropTypes.string,
 };
 
+					// <SocialIcons />
 export default AppHeader;

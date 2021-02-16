@@ -1,78 +1,48 @@
-*{
+* {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'OpenSans_Bold';
-  font-size: 15px;
 }
 
 body {
-  text-align: center; 
+  text-align: center;
+  padding: 0rem 3rem;
+  font-family: "Roboto", sans-serif;
 }
 
-img{
-  display: block;
-  line-height: 0;
-  max-width:100%;  
-  height: auto;
-}
-
-@font-face {
-  font-family: 'Arial_Rounded_MT_Bold';
-  src: url('/src/fonts/Arial_Rounded_MT_Bold.ttf');
-  src: url('/src/fonts/Arial_Rounded_MT_Bold.eot');
-  src: url('/src/fonts/Arial_Rounded_MT_Bold.woff');
-}
-
-@font-face {
-  font-family: 'OpenSans_Regular';
-  src: url('/src/fonts/OpenSans_Regular.ttf');
-}
-@font-face {
-  font-family: 'OpenSans_Bold';
-  src: url('/src/fonts/OpenSans_Bold.ttf');
-}
-@font-face {
-  font-family: 'OpenSans_BoldItalic';
-  src: url('/src/fonts/OpenSans_BoldItalic.ttf');
-}
-@font-face {
-  font-family: 'OpenSans_Italic';
-  src: url('/src/fonts/OpenSans_Italic.ttf');
-}
-@font-face {
-  font-family: 'OpenSans_Light';
-  src: url('/src/fonts/OpenSans_Light.ttf');
-}
-
-@font-face {
-  font-family: 'socialico-webfont';
-  src: url('/src/fonts/socialico-webfont.ttf');
-  src: url('/src/fonts/socialico-webfont.eot');
-  src: url('/src/fonts/socialico-webfont.svg');
-  src: url('/src/fonts/socialico-webfont.woff');
-  src: url('/src/fonts/socialico-webfont.woff2');
-}
-
-h1,h2,h3,span {
+h1,
+h2,
+h3,
+span {
   font-weight: bold;
   font-size: 24px;
   letter-spacing: 0.2px;
   word-spacing: -2.5px;
-  font-family: 'OpenSans_Regular';
+  font-family: "OpenSans_Regular";
   font-weight: lighter;
 }
 
-h1,h2{
-	color: #787878;
+h1,
+h2,
+h3 {
+  color: #787878;
+  font-family: "Roboto", sans-serif;
 }
 
-h2{
-	color: #333333;
+h2 {
+  color: #333333;
+  font-family: "Roboto", sans-serif;
 }
 
-a{
-	color: #ff5c00;
+a {
+  color: #996633;
+  text-decoration: none;
+}
+
+.margin a {
+  background-color: #babaaa;
+  text-decoration: none;
+  border-radius: 3px;
 }

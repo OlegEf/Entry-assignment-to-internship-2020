@@ -1,0 +1,20 @@
+table{
+
+	margin-left: auto;
+	margin-right: auto;
+	max-width:100%;
+	height:auto;
+	border-collapse:collapse;
+	border: 3px solid #3aa;
+background-color:#ccc;
+background-color:#CCCC99;
+	border: 2px solid #a43;
+color:#444;
+}
+
+td, tr {
+	max-width:100%;
+	height:auto;
+	border: 2px solid #aaaa99;
+	padding:0.7rem 3rem;
+}

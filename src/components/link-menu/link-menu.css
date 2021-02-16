@@ -1,11 +1,6 @@
-.before::before{
-	content:"content before ";
-	background-color:#c22;
-    padding: 12px;
-}
-
 .margin{
-	width:456px;
-	height:54px;
-    margin: 12px;
+	max-width:100%;
+	height:auto;
+	padding:1rem;
+	margin:2rem 0rem;
 }

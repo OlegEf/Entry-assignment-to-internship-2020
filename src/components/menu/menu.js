@@ -1,15 +1,14 @@
 import React from "react";
 import "./menu.css";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-const menu_home = "Главня";
+const menu_home = "Главнaя";
 const menu_my_works = "Мои работы";
 const menu_about_me = "Обо мне";
 const menu_contacts = "Контакти";
 
 const Menu = (link_facebook) => {
 	return (
-		<div className="header_c col-12">
 			<div id="menu">
 				<div className="home">
 					<a href={link_facebook}>{menu_home}</a>
@@ -24,7 +23,6 @@ const Menu = (link_facebook) => {
 					<a href={link_facebook}>{menu_contacts}</a>
 				</div>
 			</div>
-		</div>
 	);
 };
 
