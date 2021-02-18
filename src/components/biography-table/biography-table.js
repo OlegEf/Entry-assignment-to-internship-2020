@@ -29,9 +29,7 @@ const BiographyTable = ({ todos }) => {
 };
 
 BiographyTable.propTypes = {
-	todos: PropTypes.exact({
-		todos: PropTypes.func,
-	}),
+	todos: PropTypes.arrayOf(PropTypes.shape({ label: PropTypes.string })).isRequired,
 };
 
 export default BiographyTable;

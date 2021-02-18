@@ -21,9 +21,7 @@ const App = () => {
 			<AppHeader />
 			<Menu />
 			<LinkFooter fast_move_footer={"быстрый переход footer"} />
-
 			<BiographyTable todos={todoData} />
-
 			<LinkMenu fast_move={"быстрый переход logo"} />
 			<Footer />
 		</div>

@@ -2,12 +2,13 @@ import React from "react";
 import "./menu.css";
 import PropTypes from "prop-types";
 
-const menu_home = "Главнaя";
-const menu_my_works = "Мои работы";
-const menu_about_me = "Обо мне";
-const menu_contacts = "Контакти";
+const Menu = () => {
+	const menu_home = "Главнaя";
+	const menu_my_works = "Мои работы";
+	const menu_about_me = "Обо мне";
+	const menu_contacts = "Контакти";
+	const link_facebook = "https://m.facebook.com/";
 
-const Menu = (link_facebook) => {
 	return (
 			<div id="menu">
 				<div className="home">
@@ -28,9 +29,14 @@ const Menu = (link_facebook) => {
 
 Menu.propTypes = {
 	menu_home: PropTypes.string,
-	menu_my_works: PropTypes.string,
-	menu_about_me: PropTypes.string,
-	menu_contacts: PropTypes.string,
+	menu_my_works: PropTypes.string.isRequired,
+	menu_about_me: PropTypes.string.isRequired,
+	menu_contacts: PropTypes.string.isRequired,
 };
+
+Menu.propTypes = {
+	link_facebook: PropTypes.string.isRequired,
+};
+
 
 export default Menu;

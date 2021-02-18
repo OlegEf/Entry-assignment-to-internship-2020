@@ -11,7 +11,7 @@ const LinkMenu = ({fast_move}) => (
   );
 
 LinkMenu.propTypes = {
-	fast_move: PropTypes.string.isRequired
+	fast_move: PropTypes.string.isRequired,
 };
 
 export default LinkMenu;

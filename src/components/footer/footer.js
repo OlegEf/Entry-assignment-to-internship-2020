@@ -13,7 +13,7 @@ const Footer = () => {
 };
 
 Footer.propTypes = {
-	data_time: PropTypes.number,
+	data_time: PropTypes.number.isRequired,
 };
 
 export default Footer;

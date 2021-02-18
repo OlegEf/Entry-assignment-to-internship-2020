@@ -38,11 +38,10 @@ const AppHeader = () => {
 };
 
 AppHeader.propTypes = {
-	personal: PropTypes.string,
-	author: PropTypes.string,
-	project_GitHub: PropTypes.string,
-	linkGitHub_EATI: PropTypes.string,
+	personal: PropTypes.string.isRequired,
+	author: PropTypes.string.isRequired,
+	project_GitHub: PropTypes.string.isRequired,
+	linkGitHub_EATI: PropTypes.string.isRequired,
 };
 
-					// <SocialIcons />
 export default AppHeader;
